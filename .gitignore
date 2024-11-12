@@ -320,3 +320,4 @@ dist
 .nfs*
 
 **/*Zone.Identifier
+*.Zone.Identifier
