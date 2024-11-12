@@ -16,12 +16,12 @@
     <link
       rel="stylesheet"
       type="text/css"
-      href="../static/vendor/bootstrap-5.3.3-dist/css/bootstrap.min.css"
+      href="../static/vendor/bootstrap/css/bootstrap.min.css"
     />
     <link
       rel="stylesheet"
       type="text/css"
-      href="../static/vendor/boxicons-2.1.4/css/boxicons.min.css"
+      href="../static/vendor/boxicons/css/boxicons.min.css"
     />
     <link
       rel="stylesheet"
@@ -38,12 +38,17 @@
     <link
       rel="stylesheet"
       type="text/css"
-      href="../static/css/sidebar.css"
+      href="../static/style/sidebar.css"
     />
     <link
       rel="stylesheet"
       type="text/css"
-      href="../static/css/main.css"
+      href="../static/style/main.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../static/style/dashboard.css"
     />
   </head>
   <body
@@ -136,14 +141,14 @@
           </a>
           <div class="nav_list">
             <a
-              href="#"
+              href="/dashboard.html"
               class="nav_link active"
             >
               <i class="bx bx-grid-alt nav_icon"></i>
               <span class="nav_name">Dashboard</span>
             </a>
             <a
-              href="#"
+              href="/users.html"
               class="nav_link"
             >
               <i class="bx bx-user nav_icon"></i>
@@ -196,7 +201,7 @@
         class="fs-2 fw-bold pt-3"
         style="margin-bottom: 72px"
       >
-        Approval Steps > Invoice (Just testing, not real design) Anyone looking
+        Approval Steps > Invoice (Just testing, not real design)
       </h1>
       <div
         class="progress"
@@ -523,17 +528,18 @@
         </div>
       </div>
     </div>
-
-    <!-- Custom Javascript -->
-    <script src="../static/vendor/jquery-3.7.1.min.js"></script>
-    <script src="../static/vendor/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
-    <script src="../static/vendor/echarts.min.js"></script>
-    <script src="../static/vendor/aos/aos.min.js"></script>
-    <script src="../static/vendor/datatable/dataTables.min.js"></script>
-    <script src="../static/vendor/datatable/dataTables.bootstrap5.min.js"></script>
-
-    <!-- Vendor Javascript -->
-    <script src="../static/javascript/sidebar.js"></script>
-    <script src="../static/javascript/main.js"></script>
   </body>
+
+  <!-- Vendor Javascript -->
+  <script src="../static/vendor/jquery-3.7.1.min.js"></script>
+  <script src="../static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../static/vendor/echarts.min.js"></script>
+  <script src="../static/vendor/aos/aos.min.js"></script>
+  <script src="../static/vendor/datatable/dataTables.min.js"></script>
+  <script src="../static/vendor/datatable/dataTables.bootstrap5.min.js"></script>
+
+  <!-- Custom Javascript -->
+  <script src="../static/javascript/sidebar.js"></script>
+  <script src="../static/javascript/main.js"></script>
+  <script src="../static/javascript/dashboard.js"></script>
 </html>
